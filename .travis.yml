@@ -13,4 +13,3 @@ install:
 # script to run tests. Can also use make, e.g. "make test"
 script: 
   - python -m unittest discover -p "*_test.py"
-© 2019 GitHub, Inc.
