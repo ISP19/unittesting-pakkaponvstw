@@ -28,16 +28,16 @@ class FractionTest(unittest.TestCase):
         f = Fraction(0, 0)
         self.assertEqual(str(math.nan), f.__str__())
 
-    # TODO Write tests for __init__, __eq__, +, *.
-    # Here is an example, but you must add more test cases.
-    # The test requires that your __eq__ is correct.
+    """TODO Write tests for __init__, __eq__, +, *
+    Here is an example, but you must add more test cases.
+    The test requires that your __eq__ is correct."""
 
     def test_init(self):
         self.assertIsInstance(Fraction(4, 5), Fraction)
         self.assertIsInstance(Fraction(-1, -3), Fraction)
         self.assertIsInstance(Fraction(1), Fraction)
         self.assertIsInstance(Fraction(200, 500), Fraction)
-    
+        
 
 
     def test_add(self):
