@@ -1,5 +1,5 @@
 ## Unit Testing Assignment
-
+[![Build Status](https://travis-ci.com/pakkaponvstw/unittesting-pakkaponvstw.svg?branch=master)](https://travis-ci.com/pakkaponvstw/unittesting-pakkaponvstw)    
 by Pakkapon Visuttitewin.
 
 
