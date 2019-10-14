@@ -46,7 +46,7 @@ class FractionTest(unittest.TestCase):
         self.assertEqual(Fraction(10, 20), Fraction(5, 20) + Fraction(5, 20))
         self.assertEqual(Fraction(125, 18), Fraction(4, 9) + Fraction(13, 2))
         self.assertEqual(Fraction(2, 1), Fraction(1, 1) + Fraction(1, 1))
-        self.assertEqual(math.isnan(Fraction(1, 12) + Fraction(2, 0)))
+        self.assertEqual(math.isnan,(Fraction(1, 12) + Fraction(2, 0)))
 
     def test_multiply(self):
         self.assertEqual(Fraction(12, 25), Fraction(6, 5) * Fraction(2,5))
