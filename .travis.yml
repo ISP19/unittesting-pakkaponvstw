@@ -8,8 +8,11 @@ git:
 
 # Install dependencies
 install:
-  - pip3 install -r requirements.txt
+  - pip install codecov
 
 # script to run tests. Can also use make, e.g. "make test"
 script: 
-  - python -m unittest discover -p "*_test.py"
+  - coverage run fraction_test.py
+
+after_success:
+  - codecov
